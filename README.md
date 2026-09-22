@@ -9,7 +9,7 @@ Immune cell type deconvolution was performed using the EPIC reference dataset. I
 
 | Script | Description |
 |---|---|
-| `00_package_helpers.R` | Helper function for installing and loading required R packages. |
+| `package_helpers.R` | Helper function for installing and loading required R packages. |
 | `minfi_preprocessing_deconvolution.R` | Minfi-based preprocessing of Illumina methylation array data and reference-based blood cell type deconvolution using the EPIC reference dataset. |
 | `immune_proportions_analysis.R` | Analysis of estimated immune cell type proportions, including boxplots, mixed models, and diagnosis-aligned immune proportion changes. |
 | `epigenetic_age_analysis.R` | Application of epigenetic clocks, epigenetic age acceleration analysis, age acceleration boxplots, and PCA biplot. |
@@ -47,4 +47,3 @@ Reference-based immune cell deconvolution was carried out using the EPIC blood r
 7. Identify and annotate differentially methylated regions using `DMRcate`.
 8. Perform gene ontology enrichment analysis with g:Profiler.
 9. Build predictive models using selected CpGs and immune cell proportions.
-

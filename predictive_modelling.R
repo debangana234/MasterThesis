@@ -1,4 +1,4 @@
-source("00_package_helpers.R")
+source("package_helpers.R")
 
 run_predictive_models <- function(model_data,
                                   outcome_col = "disease_state",

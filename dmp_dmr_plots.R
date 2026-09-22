@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 plot_volcano_and_dmp_boxplots <- function(dmp_results,
                                           beta_values,

@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 apply_blup_horvath_clocks <- function(beta_values,
                                       metadata,

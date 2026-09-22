@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 run_limma_differential_methylation <- function(methylation_matrix,
                                                metadata,

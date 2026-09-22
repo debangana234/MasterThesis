@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 run_go_profiler_top500 <- function(top500_cpgs,
                                    gene_col = "UCSC_RefGene_Name",

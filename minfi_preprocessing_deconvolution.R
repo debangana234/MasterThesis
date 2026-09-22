@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 preprocess_minfi_data <- function(data_dir,
                                   output_dir,

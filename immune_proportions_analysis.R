@@ -1,4 +1,4 @@
-source("Parkinson/clean_scripts/00_package_helpers.R")
+source("package_helpers.R")
 
 plot_cell_type_proportions <- function(celltype_df,
                                        metadata,
